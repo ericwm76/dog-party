@@ -1,0 +1,144 @@
+* {
+	/*border: 1px solid red;*/
+	padding: 0;
+	margin: 0;
+	font-family: Open Sans;
+}
+
+*,
+*:after,
+*:before {
+ box-sizing: border-box;
+}
+
+body {
+	border-color: #000000;
+	border-style: solid;
+	border: 1px;
+}
+
+/*Nav Bar*/
+nav {
+	background-color: #75e2e6;
+	height: 63px;
+}
+
+.dog-party-icon {
+	height: 45px;
+	margin: 9px;
+	width: 45px;
+}
+
+#nav-buttons {
+	float: right;
+	margin: 12px;
+}
+
+ul {
+	display: inline-block;
+}
+
+li {
+	float: left;
+	font-color: #000000;
+	list-style: none;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+/*Header*/
+header {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(images/park.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	text-align: center;
+	height: 463px;
+}
+
+
+h1 {
+	color: #ffffff;
+	font-weight: normal;
+	margin: 0 10px;
+}
+
+.dog1 {
+	border: 3px #048eaa solid;
+	border-radius: 50% 50% 50% 50%;
+
+	height: 178px;
+	width: 178px;
+}
+
+form {
+	margin: auto;
+	position: relative;
+	top: 100px;
+	text-align: left;
+	width: 33%;
+}
+
+label {
+	color: #ffffff;
+}
+
+input {
+	display: block;
+	height: 30px;
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	font-size: medium;
+}
+
+#submit-button {
+	background-color: #75e2e6; 
+}
+
+/*Main*/
+article {
+	display: inline-block;
+	height: 570px;
+	width: 32.7%;
+	text-align: center;
+	display: center;
+	padding: 10px;
+}
+
+h2 {
+	margin: 10px;
+}
+
+.dog {
+	border: 3px #048eaa solid;
+	border-radius: 50% 50% 50% 50%;
+
+	height: 178px;
+	width: 178px;
+}
+
+article p {
+	height: 250px;
+	margin: 10px;
+	text-align: center;
+}
+
+.button {
+	background-color: #048eaa;
+	color: #ffffff;
+	height: 40px;
+	padding: 10px;
+}
+
+/*Footer*/
+footer {
+	background-color: #048eaa;
+	color: #ffffff;
+	text-align: center;
+}
+
+footer p {
+	font-size: 20px;
+	padding: 15px;
+}
+

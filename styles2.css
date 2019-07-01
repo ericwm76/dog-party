@@ -1,0 +1,195 @@
+* {
+/*  border: 1px solid red;*/
+  font-family: Roboto Slab;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+ box-sizing: border-box;
+}
+
+body {
+  border: 1px solid #000000;
+}
+
+/*Nav Bar (side)*/
+nav {
+  background-color: #9A969C;
+  border: 1px solid #000000;
+  display: block;
+  height: 100%;
+  position: fixed;
+  width: 15%;
+  text-align: center;
+}
+
+nav ul {
+  margin: auto;
+  text-align: center;
+}
+
+nav ul li {
+  margin: 9px;
+}
+
+.dog-party-icon {
+  height: 75px;
+  margin: 20%;
+  width: 75px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Header*/
+header {
+  background-color: #3E3544;
+  float: right;
+  height: 330px;
+  width: 85%;
+}
+
+h1 {
+  color: #ffffff;
+  float: right;
+  font-weight: normal;
+  margin: 60px 0 0 0;
+  width: 51%;
+}
+
+.dog1 {
+  border-radius: 50% 50% 50% 50%;
+  border: 3px #9A969C solid;
+  display: inline-block;
+  height: 290px;
+  margin: 20px;
+  position: absolute;
+  width: 290px;
+}
+
+.header-content {
+  display: inline-block;
+  float: right;
+  height: 190px;
+  margin: 30px 0;
+  text-align: center;
+  width: 51%;
+}
+
+form {
+  text-align: left;
+  width: 90%;
+}
+
+label {
+  color: #ffffff;
+}
+
+input {
+  font-size: medium;
+  height: 30px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+#submit-button {
+  background-color: #9A969C; 
+}
+
+/*Main*/
+main {
+  float: right;
+  padding: 0 30px;
+  width: 85%;
+}
+
+article {
+  border-bottom: 1px solid #9A969C;
+  display: block;
+  height: 280px;
+}
+
+h2 {
+  display: block;
+  margin: 10px;
+}
+
+.main-body {
+  display: block;
+}
+
+.dog {
+  border: 3px #9A969C solid;
+  border-radius: 50% 50% 50% 50%;
+  display: inline;
+  float: left;
+  height: 155px;
+  width: 155px;
+}
+
+.main-paragraph {
+  display: inline-block;
+  float: right;
+  margin: 0px 35px;
+  width: 70%;
+}
+
+article p {
+  float: right;
+  margin: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  background-color: #3E3544;
+  color: #ffffff;
+  height: 30px;
+  padding: 5px;
+  width: 120px;
+}
+
+/*Footer*/
+footer {
+  background-color: #3E3544;
+  color: #ffffff;
+  float: right;
+  height: 155px;
+  width: 85%;
+}
+
+#footer-text {
+  display: inline-block;
+  float: right;
+  margin: 20px 10px 0 0;
+}
+
+footer p {
+  display: inline-block;
+  padding: 15px;
+}
+
+.footer-icons {
+  display: inline-block;
+  float: right;
+}
+
+.icons-row-1 {
+  display: inline-block;
+  float: right;
+}
+
+.icons-row-2 {
+  display: inline-block;
+  float: right;
+}
+
+.social-media-icon {
+  height: 35px;
+  margin: 10px;
+  width: 35px;
+}
